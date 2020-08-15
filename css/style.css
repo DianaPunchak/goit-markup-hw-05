@@ -116,6 +116,7 @@ li{
     font-weight: 500;
     font-size: 14px;
     line-height: 0.85;
+    padding-bottom: 31;
     
 }
 
@@ -131,7 +132,16 @@ li{
 
 .site-nav{
     display: flex;
+    
 }
+
+.link{
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
+
 
 .site-nav .item:last-child{
 margin-right: 0;
@@ -144,7 +154,7 @@ margin-right: 0;
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: -2px;
+    bottom: 0px;
     border-radius: 2px;
     background-color: var(--accent-text-color);
   }
@@ -212,6 +222,9 @@ a{
 
 
 .hero-section{
+max-width: 1600px;
+margin-left: auto;
+margin-right:auto;
 padding-top: 200px;
 padding-bottom: 200px;
 text-align: center;
